@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+}
+li, a, button{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    cursor: grab;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 20px;
+}

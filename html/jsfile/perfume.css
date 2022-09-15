@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f3eae3;
+}
+.container{
+    width: 50%;
+    height: 500px;
+    margin: 100px auto;
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    width: 50%;
+    height: 100%;
+    background-image: url(../../images/iPhone_8547d_IMG_2910.JPG);
+    background-size: cover;
+    border-radius: 10px 0px 0px 10px;
+}
+.text{
+    width: 50%;
+    height: 100%;
+    padding: 40px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #ffff;
+    /* line-height: 30px; */
+}
+.t1{
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+h1{
+    margin-bottom: 30px;
+    line-height: 35px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.t2{
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-family: serif;
+    line-height: 25px;
+}
+.t3{
+    font-size: 40px;
+    font-family: serif;
+    color: green;
+    margin-bottom: 30px; 
+    font-weight: 850;
+}
+span{
+    font-size: 15px;
+    text-decoration: line-through;
+}
+.cart{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+    padding: 0 30px;
+}
+.btn{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    padding: 10px 0 0 50px;
+    background-color: #3d8168;
+    display: block;
+    text-decoration: none;
+    /* color: #fff; */
+}
+.logo{
+    /* display: inline-block; */
+    margin-right: 10px;
+    padding-top: 3px;
+}
+
+/* .btn{
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    background-color: #3d8168;
+    text-decoration: none;
+    font-family: sans-serif;
+    border-radius: 7px;
+} */
+/* a:hover{
+    background-color: #22503f;
+}
+.logo{
+    display: inline;
+    font-size: 20px;
+    padding-top: 15px;
+} */
